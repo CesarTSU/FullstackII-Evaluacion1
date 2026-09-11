@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #8b4513;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+article {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+}
+
+article img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+form {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+}
+
+form button:hover {
+    background-color: #6f360f;
+}
+
+#errorCorreo,
+#errorContrasena {
+    color: red;
+}
+#errorNombreContacto,
+#errorCorreoContacto,
+#errorComentario {
+    color: red;
+}
+
+textarea {
+    width: 100%;
+}
+#errorCodigo,
+#errorNombreProducto,
+#errorPrecio,
+#errorStock,
+#errorCategoria {
+    color: red;
+}
+.menu-admin a {
+    color: #41138b;
+    font-weight: bold;
+}

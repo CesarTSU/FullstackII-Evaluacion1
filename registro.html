@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registro - SaborCasero</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>SaborCasero</h1>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="blog.html">Blog</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="login.html">Iniciar sesión</a>
+        <a href="registro.html">Registrarse</a>
+        <a href="carrito.html">Carrito 🛒</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <h2>Registro de usuario</h2>
+
+    <form id="formRegistro">
+
+
+        <label for="run">RUN:</label>
+        <br>
+        <input type="text" id="run">
+        <p id="errorRun"></p>
+
+
+        <label for="nombre">Nombre:</label>
+        <br>
+        <input type="text" id="nombre">
+        <p id="errorNombre"></p>
+
+
+        <label for="apellidos">Apellidos:</label>
+        <br>
+        <input type="text" id="apellidos">
+        <p id="errorApellidos"></p>
+
+
+        <label for="correo">Correo:</label>
+        <br>
+        <input type="text" id="correo">
+        <p id="errorCorreo"></p>
+
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <br>
+        <input type="date" id="fecha">
+
+        <br><br>
+
+
+        <label for="region">Región:</label>
+        <br>
+
+        <select id="region">
+            <option value="">Seleccione una región</option>
+        </select>
+
+        <p id="errorRegion"></p>
+
+
+        <label for="comuna">Comuna:</label>
+        <br>
+
+        <select id="comuna">
+            <option value="">Seleccione una comuna</option>
+        </select>
+
+        <p id="errorComuna"></p>
+
+
+        <label for="direccion">Dirección:</label>
+        <br>
+
+        <input type="text" id="direccion">
+
+        <p id="errorDireccion"></p>
+
+
+        <button type="submit">
+            Registrarse
+        </button>
+
+
+    </form>
+
+</main>
+
+
+<footer>
+
+    <p>SaborCasero - Restaurante de comida chilena</p>
+
+    <p>Ñuñoa, Región Metropolitana</p>
+
+    <p>© 2026 SaborCasero</p>
+
+</footer>
+
+
+<script src="js/registro.js"></script>
+
+</body>
+
+</html>

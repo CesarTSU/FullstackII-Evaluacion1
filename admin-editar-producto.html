@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Editar producto - SaborCasero</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Administrador SaborCasero</h1>
+
+    <nav>
+        <a href="admin.html">Inicio administrador</a>
+        <a href="admin-productos.html">Productos</a>
+        <a href="admin-usuarios.html">Usuarios</a>
+        <a href="index.html">Volver a la tienda</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <h2>Editar producto</h2>
+
+    <form id="formEditarProducto">
+
+
+        <label for="codigo">Código:</label>
+        <br>
+
+        <input type="text" id="codigo" value="PR001">
+
+        <p id="errorCodigo"></p>
+
+
+        <label for="nombreProducto">Nombre:</label>
+        <br>
+
+        <input type="text" id="nombreProducto" value="Pastel de choclo">
+
+        <p id="errorNombreProducto"></p>
+
+
+        <label for="precio">Precio:</label>
+        <br>
+
+        <input type="number" id="precio" value="8500">
+
+        <p id="errorPrecio"></p>
+
+
+        <label for="stock">Stock:</label>
+        <br>
+
+        <input type="number" id="stock" value="30">
+
+        <p id="errorStock"></p>
+
+
+        <label for="categoria">Categoría:</label>
+        <br>
+
+        <select id="categoria">
+
+            <option value="">Seleccione una categoría</option>
+
+            <option value="Plato fuerte" selected>
+                Plato fuerte
+            </option>
+
+            <option value="Sandwich">
+                Sandwich
+            </option>
+
+            <option value="Entrada">
+                Entrada
+            </option>
+
+            <option value="Bebida">
+                Bebida
+            </option>
+
+        </select>
+
+        <p id="errorCategoria"></p>
+
+
+        <button type="submit">
+            Guardar cambios
+        </button>
+
+    </form>
+
+</main>
+
+
+<footer>
+
+    <p>SaborCasero - Panel de administración</p>
+
+    <p>© 2026 SaborCasero</p>
+
+</footer>
+
+
+<script src="js/editar-producto.js"></script>
+
+</body>
+
+</html>

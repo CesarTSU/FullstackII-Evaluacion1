@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Editar usuario - SaborCasero</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Administrador SaborCasero</h1>
+
+    <nav>
+        <a href="admin.html">Inicio administrador</a>
+        <a href="admin-productos.html">Productos</a>
+        <a href="admin-usuarios.html">Usuarios</a>
+        <a href="index.html">Volver a la tienda</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <h2>Editar usuario</h2>
+
+    <form id="formAdminUsuario" data-modo="editar">
+
+
+        <label for="run">RUN:</label>
+        <br>
+
+        <input type="text" id="run" value="19011022K">
+
+        <p id="errorRun"></p>
+
+
+        <label for="nombre">Nombre:</label>
+        <br>
+
+        <input type="text" id="nombre" value="Juan">
+
+        <p id="errorNombre"></p>
+
+
+        <label for="apellidos">Apellidos:</label>
+        <br>
+
+        <input type="text" id="apellidos" value="Pérez">
+
+        <p id="errorApellidos"></p>
+
+
+        <label for="correo">Correo:</label>
+        <br>
+
+        <input type="text" id="correo" value="juan@gmail.com">
+
+        <p id="errorCorreo"></p>
+
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <br>
+
+        <input type="date" id="fecha">
+
+        <br><br>
+
+
+        <label for="tipo">Tipo de usuario:</label>
+        <br>
+
+        <select id="tipo">
+
+            <option value="">Seleccione un tipo</option>
+
+            <option value="Administrador">
+                Administrador
+            </option>
+
+            <option value="Cliente" selected>
+                Cliente
+            </option>
+
+            <option value="Vendedor">
+                Vendedor
+            </option>
+
+        </select>
+
+        <p id="errorTipo"></p>
+
+
+        <label for="region">Región:</label>
+        <br>
+
+        <select id="region">
+
+            <option value="">Seleccione una región</option>
+
+        </select>
+
+        <p id="errorRegion"></p>
+
+
+        <label for="comuna">Comuna:</label>
+        <br>
+
+        <select id="comuna">
+
+            <option value="">Seleccione una comuna</option>
+
+        </select>
+
+        <p id="errorComuna"></p>
+
+
+        <label for="direccion">Dirección:</label>
+        <br>
+
+        <input
+            type="text"
+            id="direccion"
+            value="Avenida Siempre Viva 123">
+
+        <p id="errorDireccion"></p>
+
+
+        <button type="submit">
+            Guardar cambios
+        </button>
+
+    </form>
+
+</main>
+
+
+<footer>
+
+    <p>SaborCasero - Panel de administración</p>
+
+    <p>© 2026 SaborCasero</p>
+
+</footer>
+
+
+<script src="js/admin-usuario.js"></script>
+
+</body>
+
+</html>
